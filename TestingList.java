@@ -6,8 +6,15 @@ public class TestingList {
         List strList = new ArrayList();
         
         strList.add("Narayan");
-        System.out.println(strList.get(0));
+        strList.add("Dande");
+        // System.out.println(strList.get(0));
 
+        for (int i = 0; i < strList.size(); i++) {
+            System.out.println(strList.get(i));
+        }
         
+
+
     }
 }
+ 
