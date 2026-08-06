@@ -16,5 +16,6 @@ public class tstcollectionclass117 {
         Collections.sort(numList);
         System.out.print("Sorted Array : ");
         Utility.printc(numList);
+        List<Integer> unmodifyble = Collections.unmodifiableList(numList);
     }
 }
