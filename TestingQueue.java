@@ -17,6 +17,11 @@ public class TestingQueue {
         Utility.printc(q);
         Utility.printc(q);
 
+        System.out.println(q.poll()); // poll ha remove karato element but to exception ny det manje ki all yakda poll() kelay ani parat poll kela tari to null return karato exception nay det 
         
+
+         Utility.printc(q);
+
+        System.out.println(q.remove()); // exception 
     }
 }
