@@ -19,8 +19,23 @@ System.out.println(list);// orignal string
     }
 
     public static void sortindecending(List<String> stringList ){
-Collections.sort(stringList);
-Collections.reverse(stringList);
+
+        Collections.sort(stringList, new java.util.Comparator<String>() {
+            @Override
+            public int compare(String s , String t1){
+                if (s.equals(t1)) {
+                    return 0 ;
+
+                }else if(s.charAt(0)<t1.charAt(0)){
+return -1;
+                }else{
+                    return 1 ;
+                }
+                
+                
+            }
+        });
+
 
 
 
