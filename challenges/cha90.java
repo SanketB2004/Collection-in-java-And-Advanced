@@ -7,13 +7,19 @@ public class cha90 {
     public static void main(String[] args) {
        
 List<String> list = Arrays.asList("Bear", "Lion", "Ant");
-       System.out.println();
-        
+
+System.out.println(list);// real string
+
+sortindecending(list);
+
+System.out.println(list);// orignal string
+
+
 
     }
 
     public static void sortindecending(List<String> stringList ){
-
+Collections.sort(stringList);
 
 
     }
