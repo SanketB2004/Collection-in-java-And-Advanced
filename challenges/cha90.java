@@ -6,7 +6,7 @@ public class cha90 {
 
     public static void main(String[] args) {
        
-List<String> list = Arrays.asList("Bear", "Lion", "Ant");
+List<String> list = Arrays.asList("Bear","Zebra", "Lion", "Dog");
 
 System.out.println(list);// real string
 
@@ -20,6 +20,8 @@ System.out.println(list);// orignal string
 
     public static void sortindecending(List<String> stringList ){
 Collections.sort(stringList);
+Collections.reverse(stringList);
+
 
 
     }
