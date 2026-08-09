@@ -17,6 +17,9 @@ public class cha97 {
             this.isWeekday=isWeekday;
         }
         
+        public String getType(){
+            return isWeekday ? "Weekday":"Weekend";
+        }
 
     }
 
