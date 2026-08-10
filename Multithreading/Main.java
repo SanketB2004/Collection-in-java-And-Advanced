@@ -45,6 +45,17 @@ public class Main {
         Hash t2 = new Hash();
         Dollar t3 = new Dollar();
 
+        // Set Priority
+        t1.setPriority(10);
+        t2.setPriority(5);
+        t3.setPriority(1);
+
+        // Get Priority
+        System.out.println("Star Priority: " + t1.getPriority());
+        System.out.println("Hash Priority: " + t2.getPriority());
+        System.out.println("Dollar Priority: " + t3.getPriority());
+
+        // Start Threads
         t1.start();
         t2.start();
         t3.start();
